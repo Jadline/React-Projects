@@ -47,3 +47,27 @@
 /* a:global(.active){
     border-bottom : 2px solid #fff;
 } */
+@media only screen and (max-width : 1200px){
+
+}
+@media only screen and (max-width : 1023px){
+
+}
+@media only screen and (max-width : 767px){
+
+}
+@media only screen and (max-width : 500px){
+    /* .header {
+        display : flex;
+        align-items : center;
+        justify-content : space-between;
+        height : 12vh;
+        margin-left : 2rem;
+        padding-top :1rem;
+        
+       
+    
+       
+    }
+     */
+}

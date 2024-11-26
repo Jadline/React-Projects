@@ -15,21 +15,7 @@
     grid-template-columns : repeat(2,1fr);
     margin-top : 12rem;
 }
-@media (max-width : 375px){
-    .home-content {
-        grid-template-columns : 1fr;
-       
-    }
 
-}
-@media (max-width : 768px){
-    .home-content {
-        grid-template-columns : 1fr;
-        
-    }
-    
-
-}
 .exploreContent {
     display : flex;
     align-items: center;
@@ -80,4 +66,16 @@
 .space-text {
     font-size : 1.5rem;
     line-height :1.8;
+}
+@media only screen and (max-width : 1200px){
+
+}
+@media only screen and (max-width : 1023px){
+
+}
+@media only screen and (max-width : 767px){
+
+}
+@media only screen and (max-width : 480px){
+    
 }

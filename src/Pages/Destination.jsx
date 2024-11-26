@@ -33,8 +33,7 @@ function Destination(){
             <div className={styles.marsnav}><DestinationsNav/></div>
             <div className={styles['destination-content']}>
                 <div className={styles.destinationImage}>
-                    <img src={imgSrc} alt=''  className={styles.destimg}/>
-                    
+                    <img src={imgSrc} alt=''  className={styles.destimg}/>       
                 </div>
                 
                 <div className={styles.contentdata}>

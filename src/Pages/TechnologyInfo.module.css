@@ -30,19 +30,7 @@
     display : inline-block;
    
 }
-@media (max-width :768px){
-    .techbuttons{
-        display : flex;
-    }
-    .techinfo {
-        flex-direction : column;
-       
-    }
-    .techImage {
-        width : 50rem;
-        overflow : hidden;
-    }
-}
+
 .techcontent {
     /* background-color :red; */
     padding:3rem;  
@@ -65,7 +53,12 @@
     display : flex;
     align-items :center;
     justify-content :center;
+   
 
+}
+.techImage img {
+    width : 100%;
+    padding :3rem;
 }
 .activebutton {
     color :#fff;
