@@ -1,0 +1,73 @@
+
+.techbuttons span {
+    width : 5rem;
+    height :5rem;
+    border-radius : 50%;
+    background-color :#fff;
+    display : flex;
+    align-items :center;
+    justify-content :center;
+    color:#000;
+    margin-bottom :2rem;
+    cursor : pointer;
+    font-size :2rem;
+}
+.techinfo {
+   
+
+    display : flex;
+   
+    
+}
+.spaceintro {
+    grid-column : 1/-1;
+    margin-left : 7rem;
+}
+.techbuttons {
+    /* background-color : blue; */
+    padding :3rem;
+    margin-left : 5rem;
+    display : inline-block;
+   
+}
+@media (max-width :768px){
+    .techbuttons{
+        display : flex;
+    }
+    .techinfo {
+        flex-direction : column;
+       
+    }
+    .techImage {
+        width : 50rem;
+        overflow : hidden;
+    }
+}
+.techcontent {
+    /* background-color :red; */
+    padding:3rem;  
+}
+.term {
+    font-size : 1.6rem;
+    text-transform : uppercase;
+    
+}
+.techname {
+    font-size : 5rem;
+    margin-bottom :2rem;
+    font-family: "Crimson Text", serif;
+}
+.techdescription{
+    font-size : 1.6rem;
+    line-height : 1.7;
+}
+.techImage {
+    display : flex;
+    align-items :center;
+    justify-content :center;
+
+}
+.activebutton {
+    color :#fff;
+    background-color : #000;
+}
